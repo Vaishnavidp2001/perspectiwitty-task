@@ -1,0 +1,112 @@
+/* Contact Page Styling */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.contact-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.map-placeholder {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-placeholder iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Responsive Design for Contact Page */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form form button {
+        font-size: 0.9rem;
+    }
+
+    .contact-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+
+    .map-placeholder iframe {
+        height: 250px;
+    }
+}
